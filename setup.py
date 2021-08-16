@@ -15,7 +15,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name='evostrategy',
-    version='0.1.1',
+    version='0.1.2',
     author='Casokaks',
     author_email='casokaks@gmail.com',
     description='Python library implementing Machine Learning Evolution Strategy.',
