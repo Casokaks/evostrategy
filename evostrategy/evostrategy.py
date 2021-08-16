@@ -16,7 +16,7 @@ import sys
 import numpy as np
 import multiprocessing as mp
 import pprint
-from utils import utils
+from ._utils import dedup_list
 from copy import deepcopy
 from datetime import datetime
 
@@ -184,7 +184,7 @@ class EvolutionStrategy(object):
                     
         # consistency check >>> first try dedup        
         if len(self.top_solutions) != len(temp_solutions):
-            self.top_solutions = utils.dedup_list(self.top_solutions)
+            self.top_solutions = dedup_list(self.top_solutions)
             
         # consistency check >>> if still persist raise error        
         if len(self.top_solutions) != len(temp_solutions):
