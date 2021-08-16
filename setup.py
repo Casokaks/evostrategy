@@ -27,6 +27,6 @@ setuptools.setup(
     },
     license='MIT',
     packages=['evostrategy'],
-    install_requires=[],  
+    install_requires=['utils',],  
 )
 

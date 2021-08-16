@@ -16,8 +16,8 @@ import sys
 import numpy as np
 import multiprocessing as mp
 import pprint
-from copy import deepcopy
 from utils import utils
+from copy import deepcopy
 from datetime import datetime
 
 
