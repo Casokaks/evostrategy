@@ -27,6 +27,6 @@ setuptools.setup(
     },
     license='MIT',
     packages=['evostrategy'],
-    install_requires=['multiprocessing', 'numpy', ],  
+    install_requires=[],  
 )
 
