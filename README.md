@@ -1,3 +1,5 @@
-# Light python package template
+# evostrategy
 
-To install: in a terminal run "pip install git+https://github.com/Casokaks/light-python-template.git"
+Python library implementing Machine Learning Evolution Strategy.
+
+To install: in a terminal run "pip install git+https://github.com/Casokaks/evostrategy.git"
