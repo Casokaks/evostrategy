@@ -2,4 +2,8 @@
 
 Python library implementing Machine Learning Evolution Strategy.
 
-To install: in a terminal run "pip install git+https://github.com/Casokaks/evostrategy.git"
+=======================================================
+
+INSTALL: pip install git+https://github.com/Casokaks/evostrategy
+
+CLONE: git clone https://github.com/Casokaks/evostrategy.git

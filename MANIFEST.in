@@ -1,0 +1,3 @@
+# MANIFEST.in
+recursive-include evostrategy *
+recursive-include evostrategy/examples *

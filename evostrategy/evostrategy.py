@@ -16,9 +16,9 @@ import sys
 import numpy as np
 import multiprocessing as mp
 import pprint
-from ._utils import dedup_list
 from copy import deepcopy
 from datetime import datetime
+from .utils import dedup_list
 
 
 def worker_process(arg):

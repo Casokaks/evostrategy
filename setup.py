@@ -1,21 +1,20 @@
 """
-Package setup
+evostrategy setup
 ==================================
+Python library implementing Machine Learning Evolution Strategy.
 
 Author: Casokaks (https://github.com/Casokaks/)
 Created on: Aug 15th 2021
 
 """
 
-
-import setuptools
-
 with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
-setuptools.setup(
+from setuptools import setup, find_packages
+setup(
     name='evostrategy',
-    version='0.1.3',
+    version='0.2.1',
     author='Casokaks',
     author_email='casokaks@gmail.com',
     description='Python library implementing Machine Learning Evolution Strategy.',
@@ -26,7 +25,8 @@ setuptools.setup(
         "Bug Tracker": "https://github.com/Casokaks/evostrategy/issues"
     },
     license='MIT',
-    packages=['evostrategy'],
+    packages=find_packages(),
+    include_package_data=True,
     install_requires=[],  
 )
 
