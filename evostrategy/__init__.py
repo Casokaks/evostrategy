@@ -17,4 +17,4 @@ Created on: Nov 26th 2018
 __version__ = "0.2.1"
 
 # expose only EvolutionStrategy class
-from evostrategy import EvolutionStrategy
+from .evostrategy import EvolutionStrategy
